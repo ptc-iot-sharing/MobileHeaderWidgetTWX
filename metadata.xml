@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities>
+	<ExtensionPackages>
+		<ExtensionPackage name="MobileHeader_Widget"
+						  description="When added to a mash-up, this widgets sets the viewport meta tag for mobile devices."
+						  vendor="ThingWorx Customer Service"
+						  packageVersion="1.0.1" 
+						  minimumThingWorxVersion="4.1.0" />
+	</ExtensionPackages>
+	<Widgets>
+		<Widget name="mobileheader">
+			<UIResources>
+				<!-- Studio ONLY -->
+				<FileResource type="CSS" file="mobileheader.ide.css" description="" isDevelopment="true" isRuntime="false" />
+				<FileResource type="JS" file="mobileheader.ide.js" description="" isDevelopment="true" isRuntime="false" />
+				<!-- Runtime/Squeal ONLY -->
+				<FileResource type="CSS" file="mobileheader.runtime.css" description="" isDevelopment="false" isRuntime="true" />
+				<FileResource type="JS" file="mobileheader.runtime.js" description="" isDevelopment="false" isRuntime="true" />
+			</UIResources>
+		</Widget>
+	</Widgets>
+</Entities>
